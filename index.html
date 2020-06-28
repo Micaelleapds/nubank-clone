@@ -8,28 +8,54 @@
     <link rel="sortcut icon" href="/img/icon-pag.png" type = "image/png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="/css/responsividade.css">
 
 </head>
 <body>
     
-    <header>
-    <span>
-        <img src="img/nubank-logo.png" width="48" height="36" alt="logo Nubank">
-    </span>
-        <nav>
-    <ul>
-        <li><a href="#">Início</a></li>
-        <li><a href="#">Conta digital</a></li>
-        <li><a href="#">Cartão de crédito</a></li>
-        <li><a href="#">Rewards</a></li>
-        <li><a href="#">Empréstimo</a></li>
-        <li><a href="#">Sobre nós</a></li>
-        <li><a href="#">Carreiras</a></li>
-        <li><a href="#"><span></span>Login</a></li>
-    </ul>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav-header">
+        <a class="navbar-brand" href="#">
+            <img src="img/nubank-logo.png" width="50px" height="45px" alt="logo da Nubank">
+        </a>
 
-    </header>
-    </nav>
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="item">
+              <a class="link" href="#">Início</a>
+            </li>
+            <li class="item">
+              <a class="link" href="#">Link</a>
+            </li>
+            <li class="item">
+                <a class="link" href="#">Conta Digital</a>
+              </li>
+              <li class="item">
+                <a class="link" href="#">Cartão de Crédito</a>
+              </li>
+              <li class="item">
+                <a class="link" href="#">Rewards</a>
+              </li>
+              <li class="item">
+                <a class="link" href="#">Empréstimo</a>
+              </li>
+              <li class="item" id="login">
+                <a class="link" href="#">Login<span>
+                    <img src="img/login_90841.svg" width="16px" heigth="10px" alt="ícone login">
+                </span></a>
+              </li>
+          </ul>
+
+          <button type="button" class="btn btn-primary">Quero ser Nubank</button>
+
+        </div>
+      </nav>
+</header>
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
