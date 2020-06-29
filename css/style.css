@@ -12,6 +12,7 @@
     height: 48px;
     font-weight: bold;
     margin-right: 32px;
+    margin-left: 5px;
 }
 .btn-primary:hover {
     transition: 600ms;
@@ -20,6 +21,9 @@
 
 #nav-header {
     padding: 0 0 0 32px;
+    height: 80px;
+    width: 100%;
+
 }
 
 .item a {
@@ -28,10 +32,26 @@
     color: rgba(17, 17, 17, 0.7);
     text-decoration: none;
     list-style: none;
+    font-size: 17px;
+    justify-content: space-between;
 }
 .item .link:hover {
     color:rgb(172, 100, 201);
 }
-#login a span img {
+.nav-links a span img {
     margin: 0 0 0 5px;
+    background-color: rgb(148, 95, 168);
+    border-radius: 4px;
+}
+.nav-links {
+    padding: 0 0;
+    margin: 0 0;
+}
+.nav-links a {
+    padding: 0px 12px;
+    font-weight: bold;
+    color: rgb(138, 5, 190);
+    text-decoration: none;
+    list-style: none;
+    font-size: 17px;
 }
